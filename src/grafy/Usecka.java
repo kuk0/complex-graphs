@@ -4,6 +4,7 @@
  */
 package grafy;
 
+
 import java.awt.Graphics;
 
 /**
@@ -18,7 +19,7 @@ public class Usecka {
         this.b1=b1;
         this.b2=b2;
     }
-   public void paintUseka(Graphics g){
+   public void paintUsecka(Graphics g){
        b1.paintBod(g);
        b2.paintBod(g);        
        g.drawLine(b1.getX()+b1.getR()/2, b1.getY()+b1.getR()/2, b2.getX()+b2.getR()/2, b2.getY()+b2.getR()/2);
